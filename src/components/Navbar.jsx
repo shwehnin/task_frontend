@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className='fixed top-0 left-0 w-full bg-white shadow-sm z-50 font-body'>
       <div className='flex justify-between items-center p-5'>
-        <h1 className='font-bold text-2xl text-blue'>Task Management</h1>
+        <h1 className='font-bold text-2xl text-blue'>Task Management App</h1>
 
         <ul className="hidden md:flex space-x-6">
           <li><NavLink to={`/`} onClick={handleMenuClick} className={({isActive}) => isActive? "text-blue font-bold": "hover:text-blue"}>Home</NavLink></li>
