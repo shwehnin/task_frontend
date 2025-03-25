@@ -80,7 +80,7 @@ const CalendarView = () => {
       </div>
 
       {/* Calendar Grid */}
-      <div className="grid grid-cols-7 gap-1 border-t border-blue pb-6 relative">
+      <div className="grid grid-cols-7 gap-1 border-t border-navyBlue pb-6 relative">
         {["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"].map((day) => (
           <div key={day} className="text-center font-bold p-2">
             {day}
