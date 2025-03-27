@@ -8,7 +8,7 @@ export default {
     extend: {},
     variants: {
       extend: {
-        display: ['responsive'], 
+        display: ['responsive'],
       },
     },
     screens: {
@@ -22,12 +22,14 @@ export default {
       green: "#22c55e",
       pink: "#d23980",
       navyBlue: "#2e3192",
-      grey:"#f1f1f1",
+      grey: "#FAFBFD",
       grey300: "#e3e3e3",
       white: "#ffffff",
-      blue: "#2e81be",
+      blue: "#4D5D99",
       black: "#000000",
-      black50: "#7a7a7a"
+      black50: "#7a7a7a",
+      navHover: "#FF7556",
+      inputBg: "#E8F0FE"
     },
     container: {
       center: true

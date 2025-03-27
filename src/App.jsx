@@ -4,10 +4,10 @@ import Navbar from "./components/Navbar";
 export default function App() {
   return (
     <>
-      <Navbar/>
-      <div className="p-5 mt-20 font-body">
-        <Outlet/>
+      <Navbar />
+      <div className="p-5 sm:pt-28 md:pt-28 lg:pt-28 font-body">
+        <Outlet />
       </div>
     </>
-  )
+  );
 }
