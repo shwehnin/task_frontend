@@ -4,12 +4,10 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import TaskColumn from "../components/TaskColumn";
 import CustomDropdown from "../components/CustomDropdown";
-import Pagination from "../components/Pagination";
 import { useLocation, useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [tasks, setTasks] = useState([]);
-  const [links, setLinks] = useState(null);
   const [selectedStatus, setSelectedStatus] = useState("All Status");
   const [selectedPriority, setSelectedPriority] = useState("All Priority");
 
