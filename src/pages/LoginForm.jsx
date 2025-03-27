@@ -47,7 +47,7 @@ const LoginForm = () => {
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <img
             alt="Your Company"
-            src="../src/assets/react.svg"
+            src="/react.svg"
             className="mx-auto h-24 w-auto text-blue"
           />
           <h2 className="my-5 text-center text-2xl/9 font-bold tracking-tight text-gray-900">
